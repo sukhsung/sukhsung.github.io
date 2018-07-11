@@ -1,0 +1,157 @@
+* {
+	font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+	color: #FFFFFF;
+}
+
+.centermiddle {
+	text-align: center;
+	vertical-align: middle;
+	display: table-cell;
+	font-weight: bold;
+	font-size: 80px;
+}
+
+.z1 {
+	z-index: 1;	
+	background-color: rgba(255,255,255,0);
+	position: relative;
+	top: -100vh;
+	pointer-events: none;
+	  position: relative;
+	  top: 50%;
+	  transform: translateY(-60%);
+}
+
+.z0 {
+	z-index: 0;
+}
+
+#frontbox {
+	position: relative;
+}
+
+.left {
+	background-color : #000000;
+}
+
+.right {
+	background-color : #333333;
+}
+
+.actualCont {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#contLeft {
+}
+
+#contRight {
+	display: none;
+}
+
+#navLeft {
+	display: table-cell;
+}
+
+#navs
+
+#navRight {
+	padding-left:0;
+	float:right;
+}
+
+
+h1 {
+	text-align: center;
+	vertical-align: middle;
+	font-weight: xx-large;
+}
+
+.col-xs-0, .col-sm-0, .col-md-0, .col-lg-0 {
+  position: relative;
+  min-height: 1px;
+}
+
+.col-xs-0 {
+ float: left; width: 0;
+ }
+
+@media (min-width: 768px) {
+  .col-sm-0 {
+ float: left; width: 0;
+ }
+}
+
+@media (min-width: 992px) {
+  .col-md-0 {
+ float: left; width: 0;
+ }
+}
+
+@media (min-width: 1200px) {
+  .col-lg-0 {
+ float: left; width: 0;
+ }
+}
+
+.row-fluid {
+    overflow:hidden;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.row-fluid div {
+    -webkit-transition: width 0.3s ease, height 0.3s ease, margin 0.3s ease, padding 0.3s ease, opacity 0.3s ease;
+    -moz-transition: width 0.3s ease, height 0.3s ease, margin 0.3s ease, padding 0.3s ease, opacity 0.3s ease;
+    -o-transition: width 0.3s ease, height 0.3s ease, margin 0.3s ease, padding 0.3s ease, opacity 0.3s ease;
+    transition: width 0.3s ease, height 0.3s ease, margin 0.3s ease, padding 0.3s ease, opacity 0.3s ease;
+}
+
+.h100 {
+	height: 100vh;
+}
+
+.h70 div {
+	hegith: 70vh;
+}
+
+.h100 div {
+    height: 100vh;
+}
+.pad0 {
+    padding-left: 0;
+    padding-right: 0;
+}
+nav a {
+    display: block;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: xx-large;
+}
+nav a:hover {
+    display: block;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: xx-large;
+}
+nav a i {
+	font-weight: normal;
+	font-size: 42px;
+}
+
+#navRight a {
+	text-align: right;
+}
+
+#navLeft a {
+	text-align: left;
+}
+
+nav {
+
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
