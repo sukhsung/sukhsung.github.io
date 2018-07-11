@@ -114,7 +114,7 @@ $(document).ready(function() {
     $left.css("background-color",localStorage.getItem("leftColor"));
     $right.css("background-color",localStorage.getItem("rightColor"));
 
-    $contLeft.html(cie_ang);
+    //$contLeft.html(cie_ang);
 
     //0.402, 3.85 4.78 3.38 1.086
 
