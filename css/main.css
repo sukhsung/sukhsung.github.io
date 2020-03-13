@@ -17,30 +17,30 @@ body {
 	text-decoration-color: #FFFFFF;
 }
 
-#nav a {
+#navbar a {
 	color:#0083C2;
 }
 
-#nav a:hover {
+#navbar a:hover {
 	color:#0083C2;
 	text-decoration-color: #FF5440;
 	text-decoration-thickness: 0.2rem;
 }
 
-#nav ul {
+#navbar ul {
 	list-style-type: none;
 	font-family: 'Roboto', sans-serif;
 	font-weight: bold;
 	margin: 0;
 }
 
-#nav ul .active{
+#navbar ul .active{
 	text-decoration: underline;
 	text-decoration-color: #FF5440;
 	text-decoration-thickness: 0.2rem;
 }
 
-#nav ul .inactive{
+#navbar ul .inactive{
 }
 
 #pub li {
@@ -82,7 +82,7 @@ body {
 		font-size:8vw;
 	}
 	
-	#nav ul {
+	#navbar ul {
 		font-size: 5vw;
 	}
 }
@@ -95,11 +95,11 @@ body {
 		text-align:left;
 		font-size:4.5vw;
 	}
-	#nav {
+	#navbar {
 		margin-left:1vw;
 		margin-right:0;
 	}
-	#nav ul {
+	#navbar ul {
 		font-size: 2.5vw;
 	}
 	#content {
