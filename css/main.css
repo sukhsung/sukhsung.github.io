@@ -8,21 +8,23 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-a {
+#header a {
 	color:#0083C2;
 }
 
-a:hover {
+#header a:hover {
+	color:#0083C2;
+	text-decoration-color: #FFFFFF;
+}
+
+#nav a {
+	color:#0083C2;
+}
+
+#nav a:hover {
 	color:#0083C2;
 	text-decoration-color: #FF5440;
-}
-
-#content ul {
-	list-style-type: none;
-}
-
-#content ul li{
-	padding-top: 1%;
+	text-decoration-thickness: 0.2rem;
 }
 
 #nav ul {
@@ -35,9 +37,41 @@ a:hover {
 #nav ul .active{
 	text-decoration: underline;
 	text-decoration-color: #FF5440;
+	text-decoration-thickness: 0.2rem;
 }
 
 #nav ul .inactive{
+}
+
+#pub li {
+    padding-left: 1.5em;
+	text-indent:-1.5em;
+}
+
+#pub a {
+	color:#0083C2;
+}
+
+#pub a:hover {
+	color:#61A3C2;
+	text-decoration-color: #61A3C2;
+	text-decoration-thickness: 0.1rem;
+}
+
+#content {
+	font-family: 'Montserrat', sans-serif;
+}
+
+#content ul {
+	list-style-type: none;
+}
+
+#content ul li{
+	padding-top: 1%;
+}
+
+.indent{
+	padding-left: 1.5em;
 }
 
 @media (max-width: 768px) { 
@@ -59,9 +93,19 @@ a:hover {
 		margin-top:2vw;
 		margin-bottom:2vw;
 		text-align:left;
-		font-size:5vw;
+		font-size:4.5vw;
+	}
+	#nav {
+		margin-left:1vw;
+		margin-right:0;
 	}
 	#nav ul {
 		font-size: 2.5vw;
+	}
+	#content {
+		padding-left: 0;
+	}
+	#content ul {
+		padding-left: 0;
 	}
 }
