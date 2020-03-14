@@ -5,7 +5,7 @@ body {
 
 #header {
 	font-weight: bold;
-    font-family: 'Montserrat', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 }
 
 #header a {
@@ -26,6 +26,7 @@ div {
 	color:#0083C2;
 	text-decoration: underline;
 	text-decoration-color: #FFFFFF;
+	text-decoration-thickness: 0.3rem;
 }
 
 #navbar a:hover {
@@ -93,6 +94,16 @@ div {
 	
 	#navbar ul {
 		font-size: 5vw;
+		padding-left:0;
+	}
+	#navbar li {
+		text-align: center;
+	}
+
+	#content {
+		padding-left:5%;
+		padding-left:5%;
+		padding-top:6vw;
 	}
 }
 
@@ -101,6 +112,7 @@ div {
 	#header {
 		margin-top:2vw;
 		margin-bottom:2vw;
+		margin-left:5vw;
 		text-align:left;
 		font-size:4.5vw;
 	}
