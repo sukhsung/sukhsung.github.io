@@ -70,6 +70,10 @@ div {
 	line-height: 1.5em;
 }
 
+.grayed {
+	color:var(--color-light);
+}
+
 #contentList a {
 	color:var(--color-main);
 	text-decoration: none;
