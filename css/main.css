@@ -22,19 +22,23 @@ div {
 	animation-name: appear;
 }
 
+
 #navbar a {
 	color:#0083C2;
-	text-decoration: underline;
-	text-decoration-color: #FFFFFF;
-	text-decoration-thickness: 0.3rem;
+	text-decoration: none;
 }
-
 #navbar a:hover {
 	color:#0083C2;
 	text-decoration: underline;
 	text-decoration-color: #FF5440;
-	transition: text-decoration 1s ease;
 }
+
+#navbar li .active{
+	color:#0083C2;
+	text-decoration: underline;
+	text-decoration-color: #FF5440;
+}
+
 
 #navbar ul {
 	list-style-type: none;
@@ -43,15 +47,6 @@ div {
 	margin: 0;
 }
 
-#navbar ul .active{
-	text-decoration: underline;
-	text-decoration-color: #FF5440;
-}
-
-#navbar ul .inactive{
-	text-decoration: underline;
-	text-decoration-color: #FFFFFF;
-}
 
 #pub li {
     padding-left: 1.5em;
@@ -73,6 +68,10 @@ div {
 }
 
 #content ul {
+	padding-left:0;
+}
+
+#content ul {
 	list-style-type: none;
 }
 
@@ -83,6 +82,7 @@ div {
 .indent{
 	padding-left: 1.5em;
 }
+
 
 @media (max-width: 576px) { 
 	#header {
@@ -101,9 +101,11 @@ div {
 	}
 
 	#content {
-		padding-left:5%;
-		padding-left:5%;
 		padding-top:6vw;
+	}
+	#content {
+		margin-left: 10%;
+		margin-right: 10%;
 	}
 }
 
@@ -117,11 +119,13 @@ div {
 		font-size:4.5vw;
 	}
 	#navbar {
-		margin-left:1vw;
+		margin-left:5vw;
 		margin-right:0;
 	}
 	#navbar ul {
 		font-size: 2.5vw;
+		padding-left: 0;
+
 	}
 	#content {
 		padding-left: 0;
