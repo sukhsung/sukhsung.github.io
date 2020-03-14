@@ -70,7 +70,7 @@ div {
 	line-height: 1.5em;
 }
 
-.journal {
+.gray {
 	color:var(--color-light);
 }
 
@@ -119,10 +119,10 @@ div {
 
 	#content {
 		padding-top:5vw;
-		font-size:1em;
+		font-size:0.8em;
 	}
 	.gray {
-		font-size:0.85em;
+		font-size:0.75em;
 	}
 
 	
@@ -154,7 +154,12 @@ div {
 
 	#content {
 		padding-top:5vw;
+		font-size:1em;
 	}
+	.gray {
+		font-size:0.85em;
+	}
+
 	
 }
 
@@ -182,7 +187,12 @@ div {
 		flex:0 0 70vw;
 		padding-top:0vw;
 		padding-right:0.5vw;
+		font-size:1em;
 	}
+	.gray {
+		font-size:0.85em;
+	}
+
 	#content ul {
 		margin-top:0;
 		padding-left: 0;
