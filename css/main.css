@@ -55,16 +55,16 @@ div {
 }
 
 
-#pub li {
+#contentList li {
     padding-left: 1.5em;
 	text-indent:-1.5em;
 }
 
-#pub a {
+#contentList a {
 	color:var(--color-main);
 }
 
-#pub a:hover {
+#contentList a:hover {
 	color:#46658C;
 	text-decoration-color: var(--color-light);
 	text-decoration-thickness: 0.1rem;
@@ -85,11 +85,6 @@ div {
 #content ul li{
 	padding-top: 1%;
 }
-
-.indent{
-	padding-left: 1.5em;
-}
-
 
 @media (max-width: 576px) { 
 	#header {
