@@ -15,6 +15,7 @@ body {
 
 #header a {
 	color:var(--color-main);
+	text-decoration: none;
 }
 
 #header a:hover {
@@ -27,6 +28,13 @@ div {
 	animation-name: appear;
 }
 
+#header {
+	flex-grow: 1;
+}
+
+#navbar {
+	flex-grow: 1;
+}
 
 #navbar a {
 	color:var(--color-main);
@@ -54,6 +62,10 @@ div {
 	margin: 0;
 }
 
+#main {
+	display:flex;
+}
+
 
 #contentList li {
     padding-left: 1.5em;
@@ -71,6 +83,7 @@ div {
 }
 
 #content {
+	flex-grow:6;
 	font-family: 'Montserrat', sans-serif;
 }
 
@@ -87,6 +100,9 @@ div {
 }
 
 @media (max-width: 576px) { 
+	#main {
+		flex-direction: column;
+	}
 	#header {
 		text-align:center;
 		margin-top:6vw;
@@ -104,11 +120,10 @@ div {
 
 	#content {
 		padding-top:6vw;
-	}
-	#content {
 		margin-left: 10%;
 		margin-right: 10%;
 	}
+	
 }
 
 
