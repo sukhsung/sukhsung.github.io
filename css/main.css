@@ -1,20 +1,25 @@
+:root {
+	--color-main: #022873;
+	--color-light: #46658C;
+	--color-accent: #FB5569;
+	--color-bkg: #F2E1D8;
+  }
 body { 
-	background:#FFFFFF;
-	color:#0083C2;
+	background: var(--color-bkg);
+	color:var(--color-main);
 }
-
 #header {
-	font-weight: bold;
+	font-weight: 900;
 	font-family: 'Montserrat', sans-serif;
 }
 
 #header a {
-	color:#0083C2;
+	color:var(--color-main);
 }
 
 #header a:hover {
-	color:#0083C2;
-	text-decoration-color: #FFFFFF;
+	color:var(--color-main);
+	text-decoration: none;
 }
 
 div {
@@ -24,19 +29,21 @@ div {
 
 
 #navbar a {
-	color:#0083C2;
+	color:var(--color-main);
 	text-decoration: none;
 }
 #navbar a:hover {
-	color:#0083C2;
+	color:var(--color-main);
 	text-decoration: underline;
-	text-decoration-color: #FF5440;
+	text-decoration-color: var(--color-accent);
+	text-decoration-thickness: 0.1em;
 }
 
 #navbar li .active{
-	color:#0083C2;
+	color:var(--color-main);
 	text-decoration: underline;
-	text-decoration-color: #FF5440;
+	text-decoration-color: var(--color-accent);
+	text-decoration-thickness: 0.1em;
 }
 
 
@@ -54,12 +61,12 @@ div {
 }
 
 #pub a {
-	color:#0083C2;
+	color:var(--color-main);
 }
 
 #pub a:hover {
-	color:#61A3C2;
-	text-decoration-color: #61A3C2;
+	color:#46658C;
+	text-decoration-color: var(--color-light);
 	text-decoration-thickness: 0.1rem;
 }
 
