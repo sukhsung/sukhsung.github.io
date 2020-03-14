@@ -8,6 +8,12 @@ body {
 	background: var(--color-bkg);
 	color:var(--color-main);
 }
+
+div {
+	animation-duration: 1s;
+	animation-name: appear;
+}
+
 #header {
 	font-weight: 900;
 	font-family: 'Montserrat', sans-serif;
@@ -23,18 +29,11 @@ body {
 	text-decoration: none;
 }
 
-div {
-	animation-duration: 1s;
-	animation-name: appear;
-}
 
 #header {
 	flex-grow: 1;
 }
 
-#navbar {
-	flex-grow: 1;
-}
 
 #navbar a {
 	color:var(--color-main);
@@ -83,7 +82,6 @@ div {
 }
 
 #content {
-	flex-grow:6;
 	font-family: 'Montserrat', sans-serif;
 }
 
@@ -99,7 +97,7 @@ div {
 	padding-top: 1%;
 }
 
-@media (max-width: 576px) { 
+@media (max-width: 768px) { 
 	#main {
 		flex-direction: column;
 	}
@@ -108,6 +106,10 @@ div {
 		margin-top:6vw;
 		margin-bottom:6vw;
 		font-size:8vw;
+	}
+	
+	#navbar {
+		flex-grow:1;
 	}
 	
 	#navbar ul {
@@ -119,7 +121,7 @@ div {
 	}
 
 	#content {
-		padding-top:6vw;
+		padding-top:5vw;
 		margin-left: 10%;
 		margin-right: 10%;
 	}
@@ -127,7 +129,7 @@ div {
 }
 
 
-@media (min-width: 576px) { 
+@media (min-width: 768px) { 
 	#header {
 		margin-top:2vw;
 		margin-bottom:2vw;
@@ -135,9 +137,11 @@ div {
 		text-align:left;
 		font-size:4.5vw;
 	}
+	
 	#navbar {
 		margin-left:5vw;
 		margin-right:0;
+		flex:0 0 20vw;
 	}
 	#navbar ul {
 		font-size: 2.5vw;
@@ -145,9 +149,12 @@ div {
 
 	}
 	#content {
-		padding-left: 0;
+		padding-left: 2.5vw;
+		flex:0 0 80vw;
+		padding-top:0vw;
 	}
 	#content ul {
+		margin-top:0;
 		padding-left: 0;
 	}
 }
