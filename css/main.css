@@ -41,6 +41,9 @@ body {
 }
 
 #navbar ul .inactive{
+	text-decoration: underline;
+	text-decoration-color: #FFFFFF;
+	text-decoration-thickness: 0.2rem;
 }
 
 #pub li {
