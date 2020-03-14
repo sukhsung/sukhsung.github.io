@@ -70,6 +70,7 @@ div {
 
 #contentList a {
 	color:var(--color-main);
+	text-decoration: none;
 }
 
 #contentList a:hover {
