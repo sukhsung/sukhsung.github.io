@@ -1,41 +1,41 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <link rel = "stylesheet" href="css/bootstrap.min.css">
-    <link rel = "stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
-    <link rel = "stylesheet" href="https://fonts.googleapis.com/css?family=Hammersmith+One">
-    <link rel = "stylesheet" href="css/main.css">
-	<script src="js/jquery-3.4.1.min.js"></script>
-    <script src="js/bootstrap.bundle.js"></script>
-	<script src="js/main.js"></script>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
+	<head>
+		<link rel = "stylesheet" href="css/bootstrap.min.css">
+		<link rel = "stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+		<link rel = "stylesheet" href="https://fonts.googleapis.com/css?family=Hammersmith+One">
+		<link rel = "stylesheet" href="css/main.css">
+		<script src="js/jquery-3.4.1.min.js"></script>
+		<script src="js/bootstrap.bundle.js"></script>
+		<script src="js/main.js"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
 
-<body>
-    <div class="row">
-		<div class="col-md-1 d-none d-md-block"></div>
-		<div class="col-md-11 col-sm-12" id="header"><a href="#">Suk Hyun Sung</a></div>
-	</div>
-    <div class="row" id="main">
-		<div class="col-md-3 col-sm-12" id="navbar">			
-			<ul id="nav">
-				<li id="aboutme" class="inactive"><a href="#">About Me</a></li>
-				<li id="publications" class="inactive"><a href="#">Publications</a></li>
-				<li id="music" class="inactive"><a href="#">Music</a></li>
-			</ul>
-		</div>		
-		<div class="col-sm-12 col-md-8" id="content">
+	<body>
+		<div class="row">
+			<div class="col-md-1 d-none d-md-block"></div>
+			<div class="col-md-11 col-sm-12" id="header"><a href="#">Suk Hyun Sung</a></div>
 		</div>
-    </div>
-</body>	
+		<div class="row" id="main">
+			<div class="col-md-3 col-sm-12" id="navbar">			
+				<ul id="nav">
+					<li id="aboutme" class="inactive"><a href="#">About Me</a></li>
+					<li id="publications" class="inactive"><a href="#">Publications</a></li>
+					<li id="music" class="inactive"><a href="#">Music</a></li>
+				</ul>
+			</div>		
+			<div class="col-sm-12 col-md-8" id="content">
+			</div>
+		</div>
+	</body>	
 
-<script>
-	$("#nav li").click(function() {
-		loadContent(this.id)
-	});
-	$("#header a").click(function() {
-		loadMain();;
-	});
-	loadMain();
-</script>
+	<script>
+		$("#nav li").click(function() {
+			loadContent(this.id)
+		});
+		$("#header a").click(function() {
+			loadMain();;
+		});
+		loadMain();
+	</script>
 </html>
