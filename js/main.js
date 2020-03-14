@@ -4,3 +4,8 @@ function loadContent(pageName){
     $("#"+pageName).addClass("active");
     $("#content").load(pageName+".html");
 }
+
+function loadMain() {
+    $(".active").removeClass("active");
+    $("#content").load("main.html");
+}
