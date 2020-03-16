@@ -5,6 +5,12 @@
 	--color-bkg: #F2E1D8;
 	--color-index: 0;
 }
+
+::selection {
+	color: var(--color-bkg);
+	background: var(--color-main);
+}
+
 body { 
 	background: var(--color-bkg);
 	color:var(--color-main);
@@ -78,13 +84,14 @@ div {
 	color:var(--color-light);
 }
 
+
 #contentList a {
 	color:var(--color-main);
 	text-decoration: none;
 }
 
 #contentList a:hover {
-	color:var(--color-light);
+	color:var(--color-accent);
 	text-decoration-color: var(--color-light);
 	text-decoration-thickness: 0.1rem;
 }
