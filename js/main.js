@@ -27,9 +27,9 @@ function loadVar(){
     d = new Date();
     h = d.getHours();
     if (h <=7 || h>19){
-        color_index = 1;
+        color_index = 0;
     }
     else{
-        color_index =0;
+        color_index = 1;
     }
 }
