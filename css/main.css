@@ -3,6 +3,7 @@
 	--color-light: #46658C;
 	--color-accent: #FB5569;
 	--color-bkg: #F2E1D8;
+	--color-index: 0;
 }
 body { 
 	background: var(--color-bkg);
@@ -52,6 +53,9 @@ div {
 	text-decoration-thickness: 0.1em;
 }
 
+#navbar li{
+	padding-bottom: 0.3rem;
+}
 
 #navbar ul {
 	list-style-type: none;
@@ -80,7 +84,7 @@ div {
 }
 
 #contentList a:hover {
-	color:#46658C;
+	color:var(--color-light);
 	text-decoration-color: var(--color-light);
 	text-decoration-thickness: 0.1rem;
 }
