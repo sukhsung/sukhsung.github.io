@@ -12,7 +12,6 @@ function loadMain() {
     $("#content").load("main.html").hide().show().css({top:'1em',opacity:0}).animate({top:0,opacity:1});
 
     color_index = (color_index+1)%2;
-    console.log(color_index);
     document.documentElement.style.setProperty('--color-main', color_main[color_index]);
     document.documentElement.style.setProperty('--color-light', color_light[color_index]);
     document.documentElement.style.setProperty('--color-accent', color_accent[color_index]);
