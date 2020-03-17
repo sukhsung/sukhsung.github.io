@@ -1,0 +1,33 @@
+.slidecontainer {
+    width: 100%; /* Width of the outside container */
+    text-align:center;
+  }
+  
+  /* The slider itself */
+  .slider {
+    width: 60%; /* Full-width */
+    height: 25px; /* Specified height */
+  }
+  
+#svgDiv {
+  padding-left: 0;
+  margin-left: 0;
+}
+
+svg {
+  display: block;
+  margin: auto;
+}
+
+@media (max-width: 576px) { 
+  svg {
+    display: block;
+    margin: auto;
+  }
+
+
+@media (max-width: 768px) and (min-width:576px) { 
+}
+
+@media (min-width: 768px) { 
+}
