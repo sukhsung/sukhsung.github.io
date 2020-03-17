@@ -52,7 +52,7 @@ function runIsing() {
 
 
 function update(){
-    kBT = slider.value*0.1;
+    kBT = slider.value*0.01;
 
     if (radio_FM.checked) {
         FMAFM = -1
