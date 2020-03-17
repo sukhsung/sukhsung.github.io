@@ -52,7 +52,7 @@ function runIsing() {
 
 
 function update(){
-    kBT = slider.value*0.2;
+    kBT = slider.value*0.1;
 
     if (radio_FM.checked) {
         FMAFM = -1
@@ -116,11 +116,11 @@ function initialize(){
             r2 = (x-50)*(x-50) + (y-50)*(y-50);
 
             if (Math.random() < 0.5){
-                hexs = draw.polygon(verts).fill(colUp)
+                hexs = draw.polygon(verts).fill(colUp).stroke({color:'#FFFFFF',width: 0.1})
                 spinArray.push(1);
             }
             else {
-                hexs = draw.polygon(verts).fill(colDn)
+                hexs = draw.polygon(verts).fill(colDn).stroke({color:'#FFFFFF',width: 0.1})
                 spinArray.push(-1);
 
             }
@@ -128,7 +128,7 @@ function initialize(){
             hexsArray.push(hexs)
 
             if (r2>rmax2) {
-                hexs.fill('none')
+                hexs.fill('none').stroke('none')
                 drawArray.push(0)
             }
             else {
@@ -178,7 +178,7 @@ function determineWidth() {
         return dim*0.7;
     }
 
-    return dim*0.25;
+    return dim*0.4;
 
 
 }

@@ -7,7 +7,7 @@
   .slider {
     width: 30%; /* Full-width */
     height: 25px; /* Specified height */
-    background-color: var('--color-bkg');
+    background-color: var(--color-bkg);
   }
   
 #svgDiv {
