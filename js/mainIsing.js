@@ -133,7 +133,7 @@ function initialize(){
             }
             else {
                 drawArray.push(1)
-                hexs.on(['click', 'mouseover','touchstart','touchmove'], function(){flip(this)})
+                hexs.on(['click', 'mouseover','touchstart'], function(){flip(this)})
                 //hexs.click( function(){flip(this)}) 
             }
 
