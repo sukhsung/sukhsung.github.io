@@ -133,6 +133,8 @@ function initialize(){
             }
             else {
                 drawArray.push(1)
+                hexs.on(['click', 'mouseover'], function(){flip(this)})
+                //hexs.click( function(){flip(this)}) 
             }
 
         }
@@ -148,6 +150,16 @@ function initialize(){
     ni = hexsMatrix.length;
     nj = hexsMatrix[0].length; 
     return 1;
+}
+
+function flip(curHex) {
+    console.log(curHex.fill().toUpperCase()==colUp.toUpperCase())
+    console.log(curHex.fill())
+    if (curHex.fill().toUpperCase()==colUp.toUpperCase()){
+        curHex.fill(colDn)
+    } else {
+        curHex.fill(colUp)
+    }
 }
 
 function hexCoord(a,x,y,rot) {
