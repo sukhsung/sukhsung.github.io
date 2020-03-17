@@ -1,7 +1,7 @@
 var pi = Math.PI;
 
-var colUp = '#f06';
-var colDn = '#60f';
+var colUp = '#5D3BD9';
+var colDn = '#F2A7B5';
 
 var hexsMatrix=[];
 var spinMatrix=[];
@@ -140,7 +140,7 @@ function initialize(){
         spinMatrix.push(spinArray)
         drawMatrix.push(drawArray)
     }
-    draw.viewbox(0,0,100,100)
+    draw.viewbox(10,8,80,82)
     var dim = determineWidth();
     draw.size(dim,dim)
     //draw.size(500,500)
@@ -178,7 +178,7 @@ function determineWidth() {
         return dim*0.7;
     }
 
-    return dim*0.4;
+    return dim*0.25;
 
 
 }
