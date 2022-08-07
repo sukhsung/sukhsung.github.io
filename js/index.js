@@ -25,6 +25,15 @@ function loadMain() {
     document.getElementById("darkmode").src= darkmode_icon[color_index];
 }
 
+function toggleDark() {
+    color_index = (color_index+1)%2;
+    document.documentElement.style.setProperty('--color-main', color_main[color_index]);
+    document.documentElement.style.setProperty('--color-light', color_light[color_index]);
+    document.documentElement.style.setProperty('--color-accent', color_accent[color_index]);
+    document.documentElement.style.setProperty('--color-bkg', color_bkg[color_index]);
+    document.getElementById("darkmode").src= darkmode_icon[color_index];
+}
+
 function loadVar(){
 
     color_main= ["#022873","#F2BC8D"];
