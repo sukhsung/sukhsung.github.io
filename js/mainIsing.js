@@ -144,6 +144,7 @@ function initialize(){
     }
     draw.viewbox(10,8,80,82)
     var dim = determineWidth();
+    dim = dim*0.9
     draw.size(dim,dim)
     //draw.size(500,500)
     //draw.addClass('svgCSS')
@@ -153,8 +154,8 @@ function initialize(){
 }
 
 function flip(curHex) {
-    console.log(curHex.fill().toUpperCase()==colUp.toUpperCase())
-    console.log(curHex.fill())
+    // console.log(curHex.fill().toUpperCase()==colUp.toUpperCase())
+    // console.log(curHex.fill())
     if (curHex.fill().toUpperCase()==colUp.toUpperCase()){
         curHex.fill(colDn)
     } else {
