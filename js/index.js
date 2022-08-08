@@ -49,13 +49,13 @@ function loadVar(){
     // else{
     //     color_index = 1;
     // }
-    console.log('hi')
+    // console.log('hi')
     if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        console.log('dark')// dark mode
+        // console.log('dark')// dark mode
         color_index = 0;
     }
     else {
-        console.log('day')
+        // console.log('day')
         color_index = 1;
 
     }
