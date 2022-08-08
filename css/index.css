@@ -50,6 +50,7 @@ div {
 	text-decoration: underline;
 	text-decoration-color: var(--color-accent);
 	text-decoration-thickness: 0.1em;
+	transition: text-decoration-color 0.3s;
 }
 
 #navbar li .active{
@@ -92,14 +93,20 @@ img {
 
 
 #contentList a {
-	color:var(--color-main);
+	/* color:var(--color-main); */
 	text-decoration: none;
 }
+
+#contentList .main{
+	color:var(--color-main)
+}
+
 
 #contentList a:hover {
 	color:var(--color-accent);
 	text-decoration-color: var(--color-light);
 	text-decoration-thickness: 0.1rem;
+	transition: color 0.3s;
 }
 
 #content {
@@ -110,6 +117,17 @@ img {
 #content ul {
 	list-style-type: none;
 }
+
+#darkmode {
+	width: 1em;
+	color: var(--color-main);
+	transition: transform .7s ease-in-out;
+  }
+  #darkmode:hover {
+	transform: rotate(360deg);
+  }
+
+
 
 @media (max-width: 576px) { 
 	#main {

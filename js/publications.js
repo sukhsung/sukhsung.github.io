@@ -44,6 +44,8 @@ for (i=0; i<pubList.length; i++) {
     anchor.href = pubList[i].url; 
     // Set the title.
     anchor.title = pubList[i].title 
+    anchor.classList.add("main")
+
     // Append the anchor element to the body.
     li.appendChild(anchor)
     li.appendChild(br)
