@@ -7,10 +7,10 @@ var hexsMatrix=[];
 var spinMatrix=[];
 var drawMatrix=[];
 var numSpin = [];
-var a = 3;
-var rmax2 = 1600;
+var a = 2.7;
+var rmax2 = 1440;
 var draw=[];
-var numGrid = 33;
+var numGrid = 40;
 var numFlip = 20;
 
 var slider = document.getElementById('TempSlider')
@@ -144,9 +144,10 @@ function initialize(){
     }
     draw.viewbox(10,8,80,82)
     var dim = determineWidth();
-    dim = dim*0.9
+    // if (screen.width > 578) {
+    // dim = dim*0.9
+    // }
     draw.size(dim,dim)
-    //draw.size(500,500)
     //draw.addClass('svgCSS')
     ni = hexsMatrix.length;
     nj = hexsMatrix[0].length; 
