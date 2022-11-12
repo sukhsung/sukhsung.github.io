@@ -93,7 +93,7 @@ img {
 
 
 #contentList a {
-	/* color:var(--color-main); */
+	color:var(--color-main);
 	text-decoration: none;
 }
 
