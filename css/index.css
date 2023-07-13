@@ -70,12 +70,13 @@ div {
 	margin:0;
 }
 
-img {
+#darkmode {
 	transition: transform .7s ease-in-out;
   }
-  img:hover {
-	transform: rotate(360deg);
-  }
+#darkmode:hover {
+transform: rotate(360deg);
+}
+
 #main {
 	display:flex;
 }
@@ -127,6 +128,32 @@ img {
 	transform: rotate(360deg);
   }
 
+img.rounded {
+	border-radius: 30px;
+}
+
+#photo_profile {
+	/* width: 25vw; */
+	/* margin: 0; */
+}
+
+#photo_profile img{
+	width: 25vw;
+}
+
+.flex-container {
+    display: flex;
+	width: 70vw;
+}
+
+.flex-child:first-child {
+	text-align: center;
+	flex:0 0 25vw;
+    margin-right: 2vw;
+} 
+.flex-child:nth-child(2) {
+	flex: 0 0 43vw;
+} 
 
 
 @media (max-width: 576px) { 
@@ -164,6 +191,23 @@ img {
 	}
 
 	
+	.flex-container{
+		flex-direction: column;
+	}
+
+	#photo_profile img{
+		width: 60vw;
+	}
+	.flex-child:first-child{
+		width: 85vw;
+		margin-left: 5vw;
+		padding-top: 2vw;
+	}
+	.flex-child:nth-child(2) {
+		width: 85vw;
+		margin-left: 5vw;
+	} 
+	
 }
 
 
@@ -188,16 +232,25 @@ img {
 	}
 	#navbar li {
 		text-align: center;
+	}	
+
+	.flex-container{
+		flex-direction: column;
 	}
 
-	#content {
-		padding-top:5vw;
-		font-size:1em;
+	#photo_profile img{
+		width: 60vw;
 	}
-	.gray {
-		font-size:0.85em;
+	.flex-child:first-child{
+		width: 85vw;
+		margin-left: 5vw;
+		text-align: center;
+		padding-top: 5vw;
 	}
-
+	.flex-child:nth-child(2) {
+		width: 85vw;
+		margin-left: 5vw;
+	} 
 	
 }
 
