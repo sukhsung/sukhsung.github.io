@@ -37,7 +37,7 @@ for (i=0; i<pubList.length; i++) {
     var anchor = document.createElement('a'); 
     // Create the text node for anchor element.
     var link = document.createElement('span');
-    link.innerHTML = title;
+    link.innerHTML = (pubList.length-i) +".    "+ title;
     //var link = document.createTextNode(title);
     
     // Append the text node to anchor element.
