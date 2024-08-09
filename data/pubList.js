@@ -4,6 +4,21 @@ pubList = [
       "journal": "ArXiv",
       "year" : "2024"
     },
+    {"title": "Extraordinary Phase Transition Revealed in a van der Waals Antiferromagnet",
+      "url": "https://doi.org/10.1038/s41467-024-50900-1",
+      "journal": "Nature Communications",
+      "year" : "2024"
+    },
+    {"title": "Elastic plate basis for the deformation and electron diffraction of twisted bilayer graphene on a substrate",
+      "url": "https://doi.org/10.1103/PhysRevB.110.024116",
+      "journal": "Physical Review B",
+      "year" : "2024"
+    },
+    {"title": "Observation of stacking engineered magnetic phase transitions within moiré supercells of twisted van der Waals magnets",
+      "url": "https://doi.org/10.1038/s41467-024-49942-2",
+      "journal": "Nature Communications",
+      "year" : "2024"
+    },
     {"title": "* Endotaxial Stabilization of 2D Charge Density Waves with Long-range Order",
       "url": "https://doi.org/10.1038/s41467-024-45711-3",
       "journal": "Nature Communications",
