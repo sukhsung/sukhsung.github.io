@@ -1,4 +1,14 @@
 pubList = [
+    {"title": "Inverse melting of polar order in a ferroelectric oxide",
+      "url": "https://doi.org/10.48550/arXiv.2411.10445",
+      "journal": "ArXiv",
+      "year" : "2025"
+    },
+    {"title": "In-plane control of a charge density wave by means of shear stress",
+      "url": "https://doi.org/10.1002/adma.202410950",
+      "journal": "Advacned Materials",
+      "year": "2025"
+    },
     {"title": "* Ultra-Cold Cryogenic TEM with Liquid Helium and High Stability",
       "url": "https://arxiv.org/abs/2402.00636",
       "journal": "ArXiv",
