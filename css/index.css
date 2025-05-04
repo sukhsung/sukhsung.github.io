@@ -46,18 +46,12 @@ div {
 	text-decoration: none;
 }
 #navbar a:hover {
-	color:var(--color-main);
-	text-decoration: underline;
-	text-decoration-color: var(--color-accent);
-	text-decoration-thickness: 0.1em;
-	transition: text-decoration-color 0.3s;
+	color:var(--color-accent);
+	transition: 0.3s;
 }
 
 #navbar li .active{
-	color:var(--color-main);
-	text-decoration: underline;
-	text-decoration-color: var(--color-accent);
-	text-decoration-thickness: 0.1em;
+	color:var(--color-accent);
 }
 
 #navbar li{
